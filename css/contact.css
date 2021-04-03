@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+#contact{
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+    background-color: white;
+
+    width: 80vw;
+
+    margin: auto;
+}
+
+#contact h1{
+
+    border-bottom: 8px solid #5d001e;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+    margin: 45px;
+}
+
+#contact-form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* border: 2px solid red; */
+}
+
+input, select{
+
+    width: 100%;
+
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid #5d001e;
+
+    font-size: larger;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+
+    padding: 10px;
+    margin: 15px 0px;
+
+    /* border-radius: 25px; */
+}
+
+select{
+
+    width: 100%;
+    background: url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat right;
+    -webkit-appearance: none;   
+}
+
+
+#desc{
+
+    width: 100%;
+    height: 10vh;
+    border: 2px solid #5d001e;
+    margin: 40px 0px;
+    padding: 10px;
+
+    font-size: medium;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#submit{
+
+    width: 80%;
+
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    font-weight: bold;
+
+    padding: 5px;
+
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+    
+    background-color: #5d001e;
+    color: white;
+    
+    border: 2px solid #5d001e;
+    border-radius: 25px;
+
+}
+
+#submit:hover{
+
+    background-color: white;
+    color: #5d001e;
+    
+}
+
+@media only screen and (max-width : 1024px){
+
+    input, select{
+        width: 85%;
+    }
+
+    #desc{
+
+        width: 85%;
+        height: 12vh;
+    }
+
+    #contact{
+        width: 95%;
+    }
+
+    #submit{
+        margin-top: 10px;
+        margin-bottom: 50px
+    }
+}

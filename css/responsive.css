@@ -1,0 +1,174 @@
+@media only screen and (max-width : 1024px){
+
+
+    /* Making Nav Bar Responsive */
+
+    #brand {
+        font-size: 25px;
+    }
+
+    #nav-links{
+
+        position: absolute;
+        z-index: 10;
+        top: 47px;
+        left: -100%;
+
+        height: 93vh;
+        width: 100%;
+        background-color: rgb(75, 0, 0);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        transition: 0.8s;
+    }
+    .nav-link{
+        color: white;
+
+        margin: 15px 0px;
+    }
+
+    #bars{
+
+        display: block;
+    }
+    #check:checked ~ #nav-links{
+
+        left: 0%;
+    }
+    #check:checked ~ #bars{
+
+        display: none;
+    }
+    #check:checked ~ #cross{
+
+        display: block;
+    }
+
+   
+    #search-label{
+
+        display: none;
+    }
+
+    #search-btn-2{
+        display: flex;
+
+        margin: 0px 20px;
+        margin-top: 50px;
+
+        border: none !important;
+    }
+
+    .search-btn input {
+    
+        padding: 4.8px 10px;
+    }
+
+    /* Designing Banner */
+
+    #banner-text-1{
+
+        
+        top: 35%;
+        left: 40%;
+    
+        font-size: 45px;
+    
+        
+    }
+    
+    #banner-text-2{
+        
+        position: absolute;
+        top: 55%;
+        left: 45%;
+    
+        font-size: 30px;
+    
+        font-family: 'Sofia', cursive;    
+    }
+
+
+    /* designing About section */
+
+    #site-about h1{
+
+        font-size: 40px;
+    }
+
+    #site-about span{
+
+        text-align: justify;
+    }
+
+
+    /* designing content section */
+   
+    .content{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content-container h1{
+
+        font-size: 38px; 
+    }
+    
+
+    .content-text p{
+
+        display: none;
+    }
+
+    .content-text h1{
+        text-align: center;
+
+        font-size: 30px !important;
+    }
+
+    .content-text{
+
+        align-items: center;
+        width: 270px;
+
+    }
+
+
+    .content-image {
+        width: 350px;
+        height: 300px;
+    }
+
+   
+}
+
+
+@media only screen and (max-width : 450px){
+
+     /* Designing Banner */
+
+     #banner-text-1{
+
+        
+        top: 35%;
+        left: 40%;
+    
+        font-size: 20px;
+    
+        
+    }
+    
+    #banner-text-2{
+        
+        top: 58%;
+        left: 40%;
+        font-size: 11px;
+    }
+}
+
+
